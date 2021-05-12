@@ -7,7 +7,7 @@
 class threat{
 public:
     SDL_Rect bullet1[7], bullet2[5];
-    pair<int,int> velo[3] = {make_pair(5,5),make_pair(0,5),make_pair(-5,5)};
+    pair<int,int> velo[3] = {make_pair(7,7),make_pair(0,7),make_pair(-7,7)};
     SDL_Texture* bul;
     SDL_Rect list[1000],origin[1000];
     int type[1000], order[1000], orient[1000]; 
