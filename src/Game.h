@@ -70,7 +70,7 @@ void Game::loop(){
                         X.velo_dash = 15*X.direc;
                         X.middash = 1;
                     }
-                    if(e.key.keysym.sym == SDLK_c ){
+                    if(e.key.keysym.sym == SDLK_c && X.ultimate==15){
                         T.init(rend);
                         flag = 0;
                         reset = 0;
